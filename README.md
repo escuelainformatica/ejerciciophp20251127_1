@@ -31,3 +31,17 @@
         return $num1+$num2;
     }
 ```
+# crear un objeto
+Un objeto es una variable definida por una clase
+
+```php
+class Clase1 {
+    // campo
+    public $campo1;
+    // metodo
+    public function fn1() {}
+}
+$obj=new Clase1();
+$obj->campo1="hola";
+$obj->fn1();
+```
