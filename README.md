@@ -45,3 +45,18 @@ $obj=new Clase1();
 $obj->campo1="hola";
 $obj->fn1();
 ```
+## Agregar constructor
+En las clases que tienen campos (modelos), se puede ocupar un constructor
+
+```php
+class Producto {
+    public $nombre;
+    public $precio;
+    public function __construct($nombre,$precio) {
+        $this->nombre=$nombre;
+        $this->precio=$precio;
+    }
+}
+$prod=new Producto("cocacola",2500);
+
+```

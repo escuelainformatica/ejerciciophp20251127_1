@@ -1,5 +1,6 @@
 <?php
 
+// Esta clase que no tienen funciones: Modelo
 class Producto {
     public string $nombre;
     public int $precio;

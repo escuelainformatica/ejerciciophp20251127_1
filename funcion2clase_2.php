@@ -1,6 +1,6 @@
 <?php
 
-// Esta clase que no tienen funciones: Modelo
+// Esta clase que tienen campos / metodos = clase de dominio.
 class Producto {
     // campos / propiedades:
     public string $nombre;
